@@ -17,7 +17,8 @@
 <a href="https://github.com/Dezenix/website-screens/pulls"><img src="https://img.shields.io/github/issues-pr/Dezenix/website-screens?color=brightgreen"></a>
 <a href="https://github.com/Dezenix/website-screens/pulls?q=is%3Apr+is%3Aclosed"><img src="https://img.shields.io/github/issues-pr-closed-raw/Dezenix/website-screens?color=0059b3"></a>
 <!-- <a href="https://github.com/Dezenix/website-screens/issues"><img src="https://img.shields.io/github/issues/Dezenix/website-screens?color=0059b3"></a> -->
-
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+  
 </div>
 
 ## ⚒️ Contribution Guidelines
