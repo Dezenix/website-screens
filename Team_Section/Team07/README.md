@@ -3,5 +3,5 @@
 <a align ="center" href="https://github.com/Dezenix/website-screens/blob/main/Team_Section/Team07/Team07.fig "> `  Downlaod Figma File  `</a>
 
 
-![preview-team_07](https://github.com/Dezenix/website-screens/blob/main/Team_Section/Team07/Preview%20Team07.png)
+![preview-team __07](https://github.com/Dezenix/website-screens/blob/main/Team_Section/Team07/Preview%20Team07.png)
 
