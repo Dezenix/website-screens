@@ -3,5 +3,5 @@
 <a align ="center" href="https://github.com/Dezenix/website-screens/blob/main/Testimonials/Testimonials01/Testimonials01.fig "> `  Downlaod Figma File  `</a>
 
 
-![preview-testimonials_02](https://github.com/Dezenix/website-screens/blob/main/Testimonials/Testimonials01/Testimonials01_Preview.png)
+![preview-testimonials_02](https://github.com/Dezenix/website-screens/blob/main/Testimonials/Testimonials02/Testimonials02_Preview.png)
 
