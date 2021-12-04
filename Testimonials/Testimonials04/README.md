@@ -4,5 +4,5 @@
 
 
 
-![Testimonials04](https://user-images.githubusercontent.com/85581658/143185587-cd52dc12-753e-4a43-8eef-248c8f230597.jpg)
+![Testimonials04](https://github.com/Dezenix/website-screens/blob/main/Testimonials/Testimonials04/Testimonials04_preview.png)
 
