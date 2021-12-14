@@ -5,4 +5,4 @@ Grocery Store
 <a align ="center" href="https://github.com/Dezenix/website-screens/blob/main/Team_Section/Team04/Team04.fig"> `  Downlaod Figma File  `</a>
 
 
-![preview-team_04](https://github.com/Dezenix/website-screens/blob/main/Team_Section/Team04/Preview%20Team04.png)
+![preview-Grocery Store](https://github.com/Amrita-Mukherjee/website-screens/blob/main/Grocery%20Store/Grocery%20Store.png)
