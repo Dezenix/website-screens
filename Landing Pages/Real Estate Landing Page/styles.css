@@ -1,0 +1,647 @@
+body{
+    background-color: #EDEDED;
+    overflow-x: hidden;
+   
+}
+.t {
+    text-align: center;
+}
+.main{
+    padding-top: 2rem;
+    padding-left: 8rem;
+    padding-right: 2rem;
+}
+.nav-item{
+    padding: 0 2rem;
+}
+h1{
+    padding-top: 5rem;
+    font-size: 4.5rem;
+    padding-bottom: 2rem;
+}
+.main-para{
+    line-height: 1.8rem;
+    margin-bottom: 2rem;
+}
+#heading{
+    background-image: url("images/pexels-binyamin-mellish-186077.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 7.5rem;
+}
+.main-button{
+    padding: 9px 25px;
+    
+}
+.container{
+    width:40%;
+    padding-left:0;
+    margin-left:0;
+    margin-top: 4%;
+    
+}
+.fa-plus{
+   color:#000;
+}
+.container p{
+   
+    background-color:#FAEDF0;
+    padding: 3px 5px;
+    text-align: center;
+}
+.search{
+    width: 60%;
+    background-color: #fff;
+    padding:2rem;
+    margin: auto;
+    transform: translateY(-50%);
+   
+}
+.search input{
+    margin-right: 1rem;
+    padding: 5px;
+}
+.search h2{
+    margin-bottom: 1.8rem;
+}
+.pricing-div h2{
+    display:inline-block;
+}
+#pricing{
+   padding: 0 15% 0 15%;
+    
+}
+
+.pricing-span{
+    position:relative;
+    left:52%;
+    top: 3rem;
+}
+.price{
+    margin-left:15%;
+    margin-right:15%;
+    color:#595260;
+    transform: translateY(50%);
+   
+   
+}
+#about{
+    
+    background-color:#222831;
+    padding: 17% 10% 2% 10%;
+   
+}
+.about-div{
+    padding: 7% 15%;
+    color: #fff;
+   
+}
+#about p{
+    line-height: 2rem;
+    font-size: large;
+}
+.brands{
+    color: #fff;
+    text-align: center;
+    padding-top: 6rem;
+    border-top: 2px #595260 solid;
+   color:#595260;
+    
+}
+
+.card{
+     margin-right: 4%; 
+}
+.card-img-top{
+   
+        width: 100%;
+        height: 15vw;
+        object-fit: cover;
+        
+}
+.price .card-body p{
+ display: inline-block;
+ margin-right: 0.8rem;
+}
+.price .btn{
+    margin-right: 0.8rem;
+}
+.price i{
+    margin-right: 2px;
+}
+.pricing-h2{
+  position: relative;
+  top:3rem;
+}
+.pricing-div{
+    position:relative;
+    top:5rem;
+}
+#services{
+    padding: 9% 15%;
+}
+#services h4{
+    color:#595260;
+}
+#services h2{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+#services p{
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    line-height: 2;
+}
+#services .btn{
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+#services .col{
+    padding:1.5rem;
+}
+
+#home-information{
+   
+    padding: 0% 15%;
+    padding-bottom: 9%;
+    
+}
+#home-information .row{
+   margin-bottom: 2rem;
+}
+
+
+
+#home-information h4{
+    padding-bottom: 2rem;
+    color:#595260;
+
+}
+.card-img-top{
+    width: 100%;
+}
+.hi{
+    position: relative;
+}
+.hi button{
+ position: absolute;
+left:30%;
+top:15%;
+
+   
+}
+
+#home-information .card-body p{
+    color:#595260;
+}
+#testimonials{
+   
+    background-color:#222831 ;
+    color: #fff;
+}
+.carousel-item{
+    padding:0% 15% 5% 15%;
+}
+.test{
+    padding:5% 15%;
+}
+#testimonials h4{
+    padding-bottom: 2rem;
+}
+#testimonials h2{
+    padding-bottom: 2%;
+}
+#questions{
+    padding: 7% 15%;
+}
+#questions h2{
+    padding-bottom: 3%;
+}
+#footer{
+    padding: 3% 15% 1% 15%;
+}
+.fa-twitter-square, .fa-instagram-square, .fa-linkedin, .fa-facebook-square{
+    margin-right: 2rem;
+    color: #595260;
+}
+.fa-twitter-square:hover, .fa-instagram-square:hover, .fa-linkedin:hover, .fa-facebook-square:hover{
+    color: black;
+}
+.y:hover{
+    
+    color:#595260;
+}
+button:focus{
+    outline: 0 !important;
+    box-shadow: none !important;
+}
+.small-screen{
+  display:none;
+}
+.sm-sc{
+    display:none;
+}
+.q2{
+    display: none;
+}
+.vsm-sc{
+    display: none;
+}
+.vsm{
+    display: none;
+}
+
+@media only screen and (max-width:1024px) {
+    .price .card .card-img-top{
+        width: 200px;
+        height:200px
+    }
+    #about{
+        padding-top: 22%;
+    }
+    .search{
+        width: 75%;
+
+    }
+    .search input{
+        margin-right: 0;
+        width: 25%;
+    }
+
+   
+}
+@media only screen and (max-width:768px){
+    .pricing-span{
+        left:38%;
+    }
+    .container{
+        padding-top:3%;
+        width: 80%;
+        margin: auto;
+    }
+    .pricing-div{
+        top:1rem;
+    }
+    .card-img-top{
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+    }
+    .price{
+        transform: translateY(0);
+    }
+    #about{
+        padding-top: 1rem;
+    }
+    .brands{
+        padding-top: 1rem;
+    }
+    #pricing{
+        padding-bottom: 7rem;
+    } 
+    #about{
+        margin-top: 7rem;
+    }
+    #services video{
+        width:400px;
+    }
+    #testimonials img{
+      padding-bottom: 3rem;
+    }
+   
+   .small-screen{
+       display:block;
+   }
+  .big-screen{
+      display:none;
+  }
+   #testimonials h4{
+       padding-bottom: 1%;
+   } 
+   .bg-sc{
+       display: none;
+   }
+   .sm-sc{
+       display: block;
+   }
+  .price .card-body{
+      text-align: center;
+      width: 200px;
+  }
+  .price .card{
+     
+     width: 200px;
+ 
+     
+  }
+  .price{
+    margin-left:8%;
+    margin-right:8%;
+ 
+}
+.price button{
+    margin-bottom: 2%;
+}
+#pricing{
+ padding-left: 8%;
+}
+#about{
+    padding-left: 8%;
+    padding-right: 8%;
+}
+h1{
+    color: #fff;
+    text-shadow:1px 1px 2px #000;
+}
+
+.heading-para{
+    background: rgba(255,255,255,0.5);
+    box-sizing: border-box;
+    text-align: center;
+    
+   padding-top: 1rem;
+   padding-bottom: 0.3rem;
+}
+.main-para{
+   
+    
+    font-family: 'Cedarville Cursive', cursive;
+     font-family: 'Dancing Script', cursive;
+     color: #000;
+     font-size: 25px;
+}
+.main-button{
+    margin-top: 4%;
+    margin-bottom: 6%;
+}
+.container .col h2{
+    /* background: rgba(255,255,255,0.5);
+    text-align: center; */
+    color: #fff;
+    text-shadow:1px 1px 2px #000;
+    margin-bottom: 7%;
+   
+    
+}
+.main{
+    padding-right: 12.6%;
+    padding-right: 12.6%;
+}
+ .container i{
+    color: #fff;
+    text-shadow:1px 1px 2px #000;
+ }
+ .price button{
+     margin-bottom: 1rem;
+ }
+}
+@media only screen and (max-device-width:425px){
+   .m{
+       display: none;
+   }
+    body h1{
+        font-size: 32px;
+    }
+    body p{
+        font-size: 16px;
+    }
+    body h2{
+       font-size:21px;
+    }
+ #heading h1{
+     font-size: 38px;
+    
+ }
+ #heading p{
+     font-size: 16px;
+     padding: 0;
+ }
+#heading h2{
+    font-size: 21px;
+}
+/* .t{
+    width:80%;
+    text-align: center;
+} */
+.t .col{
+    margin-bottom: 1rem;
+}
+
+.main-button{
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+   
+}
+.search{
+    width: 85%;
+    padding: 1rem;
+}
+.search h2{
+    font-size: 18px;
+}
+.search input{
+    width: 21%;
+    margin-right: 1%;
+    padding: 1%;
+}
+.search button{
+    
+    
+    padding: 1%;
+}
+#pricing{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 2rem;
+    margin: auto;
+}
+#pricing span{
+    left: 24%;
+}
+.card{
+    width: 300px;
+    margin-bottom: 2.5rem;
+    text-align: center;
+}
+.price .card{
+    width: 100%;
+   
+}
+.card-body{
+    width: 300px;
+}
+.price .card .card-body{
+    width: 100%;
+}
+.price .card .card-img-top{
+    width: 100%;
+}
+#about h2{
+    font-size: 18px;
+}
+#about p{
+    font-size:16px;
+}
+#services video{
+    width:274px;
+}
+#pricing h2{
+    font-size: 16px;
+}
+
+#about p{
+    width: 140%;
+}
+.c{
+    padding-right: 2rem;
+    padding-left: 0;
+}
+#services {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+ .price {
+     padding-right: 1rem;
+     padding-left:1rem;
+ }
+ .h{
+     padding-top: 1rem;
+     padding-bottom: 1rem;
+ }
+ .hi{
+     padding-bottom: 4rem;
+ }
+ #home-information .card-img-top{
+   height:200px;
+ }
+ #testimonials{
+     padding-top: 1.5rem;
+     padding-bottom: 1.5rem;
+ }
+ #testimonials h2{
+     font-size:20px;
+ }
+ #testimonials p{
+     line-height: 1.5rem;
+ }
+ #questions{
+     padding-top: 4rem;
+     padding-bottom: 4rem;
+ }
+ #questions h2,h4,h5{
+     font-size: 18px;
+     
+ }
+ #questions h4{
+    padding-bottom: 2rem;
+ }
+ .f{
+     padding-top: 3.8rem;
+ }
+ .q1{
+     display: none;
+ }
+ .q2{
+     display: block;
+ }
+ .q2 .fab{
+     margin-right: 0%;
+ }
+#heading{
+    padding-left: 0px;
+}
+.main{
+    padding-left: 0;
+}
+.container {
+   
+     /* padding-left: 8rem;
+    padding-right: 2rem; */
+    display: none;
+  
+   
+}
+.container p{
+    font-size: 14px;
+}
+.ee{
+    padding-left: 4rem;
+}
+.z{
+    text-align: center;
+}
+.sm-sc{
+    display: none;
+}
+.vsm-sc{
+    display: block;
+}
+}
+@media only screen and (max-device-width:375px){
+   
+  .search input{
+      width: 18%;
+      font-size: 11.6px;
+  }
+  .ee{
+      padding-left: 3rem;
+  }
+  #pricing span{
+    left:11%;
+}
+#about{
+    margin-top: 1.5rem;
+}
+.sm-sc{
+    display: none;
+}
+.vsm-sc{
+    display: block;
+}
+.c{
+    margin-right: 1.8rem;
+}
+#about p{
+    line-height: 1.5rem;
+}
+#services video{
+    width: 263px;
+}
+#home-information .card{
+  width: 263px;
+}
+#home-information .card-body{
+    width: 263px;
+}
+#home-information .card-img-top{
+    width: 100%;
+}
+}
+@media (max-device-width:395px) and (min-device-width:378px){
+ .search input{
+     width: 20%;
+     font-size: 12px;
+ }
+ .search button{
+     margin-left: 2%;
+ }
+ #pricing span{
+    left: 18%;
+}
+#about p{
+    line-height: 1.5rem;
+}
+#home-information .card{
+    width: 272px;
+  }
+  #home-information .card-body{
+      width: 272px;
+  }
+  #home-information .card-img-top{
+      width: 100%;
+  }
+  #about{
+      margin-top: 0%;
+  }
+ 
+}
