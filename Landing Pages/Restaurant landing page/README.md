@@ -1,9 +1,9 @@
 <h1 align="center">
-Grocery Store
+Restaurant Landing Page
 </h1>
 
-<a align ="center" href="https://github.com/Amrita-Mukherjee/website-screens/blob/main/Grocery%20Store/Grocery%20Store.fig"> `  Downlaod Figma File  `</a>
+<a align ="center" href="https://github.com/Amrita-Mukherjee/website-screens/blob/main/Landing%20Pages/Restaurant%20landing%20page/restaurant_landing.fig"> `  Downlaod Figma File  `</a>
 
 
-![preview-Grocery Store](https://github.com/Amrita-Mukherjee/website-screens/blob/main/Grocery%20Store/Grocery%20Store.png)
+![preview-Restaurant](https://github.com/Amrita-Mukherjee/website-screens/blob/main/Landing%20Pages/Restaurant%20landing%20page/restaurant%20landing%20page.png)
 
