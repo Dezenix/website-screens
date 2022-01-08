@@ -1,0 +1,28 @@
+@import 'variables';
+
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+body{
+font-family: $rubik;
+
+}
+.lighten{
+    color: rgba(255, 255, 255, 0.473);
+}
+.hard{
+    color: white;
+}
+.hide{
+    display: none;
+}

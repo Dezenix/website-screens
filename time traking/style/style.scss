@@ -1,0 +1,177 @@
+@import 'global';
+@import 'variables';
+
+body{
+    background-color: $Very-dark-blue;
+    padding: 70px 140px 0 140px;
+}
+.container{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4,1fr );
+    grid-template-rows: repeat(2,1fr );
+    grid-template-areas: 
+    "report     work        play        study"
+    "report     exercise    social      self-care";
+    .report{grid-area: report;}
+    .play{grid-area: play;}
+    .social{grid-area: social;}
+    .exercise{grid-area: exercise;}
+    .study{grid-area: study;}
+    .self-care{grid-area:self-care;}
+    .work{grid-area: work;}
+}
+
+.item{
+    // background-color: $study;
+    position: relative;
+    padding: 40px  0 0 0;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    
+}
+.content{
+    color:white;
+    height: 101%;
+    padding: 20px 30px;
+    border-radius: 10px;
+    background-color:$Dark-blue;
+    width: auto;
+    cursor: pointer;
+    transition: all 200ms ease-in-out;
+    &:hover{background-color:$Desaturated-blue;}
+    .top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        img{
+            opacity: .7;
+            cursor: pointer;
+            transition: all 200ms ease-in-out;
+            &:hover{
+            opacity:1;
+            }
+        }
+    }
+    .time{
+        .hrs{
+            font-weight: 200;
+            font-size: 3em;
+            margin-bottom: 5px;
+            margin-left: 5px;
+        }
+    }
+}
+
+.report{
+    padding:0px ;
+    color: white;
+    background-color: $Dark-blue;
+    .profile{
+        padding:30px 30px 50px 30px;
+        display:grid;
+        background-color:$Blue;
+        border-radius: 10px;
+        .text{
+            span{font-size: .8em;margin-bottom: 10px;}
+            .name{
+                font-size: 2.2em;
+                margin-top: 0px;
+                margin-bottom: 30px;
+                font-weight: 200;
+            }
+        }
+        img{
+            max-width: 80px; 
+            border: 3.5px solid white; 
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+    }
+    .btns{
+        display: grid;
+        padding: 20px 30px;
+        .btn{
+            margin-bottom: 15px;
+            transition: all 100ms ease-in-out;
+            cursor: pointer;
+            &:hover{color: white;}
+            &:focus{color: white;}
+        }
+    }
+}
+
+.work{
+    background-color: $work;
+    background-image: url(../images/icon-work.svg);
+    background-size: 70px;
+    background-position: 150px -10px;
+}
+.play{
+    background-color: $play;
+    background-image: url(../images/icon-play.svg);
+    background-size: 70px;
+    background-position: 150px -10px;
+
+}
+.study{
+    background-color: $study;
+    background-image: url(../images/icon-study.svg);
+    background-size: 70px;
+    background-position: 150px -10px;
+}
+.exersice{
+    background-color: $exercise;
+    background-image: url(../images/icon-exercise.svg);
+    background-size: 70px;
+    background-position: top right;
+}
+.social{
+    background-color: $social;
+    background-image: url(../images/icon-social.svg);
+    background-position: 150px -1px;
+    background-size: 70px;
+}
+.self-care{
+    background-color: $self-care;
+    background-image: url(../images/icon-self-care.svg);
+    background-size: 60px;
+    background-position: 160px -10px;
+
+}
+
+
+@media  screen and (max-width:376px) {
+    body{
+        padding: 60px 25px;
+    }
+    .item{
+        margin: 30px 0;
+    }
+    .container{
+        display: block;
+    }
+    .report{
+        .profile{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            img{
+                margin-bottom: 0;
+            }
+            .text{
+                .name{
+                    font-size:1.5em ;
+                    margin-bottom: 0;
+                }
+            }
+        }
+        .btns{
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    .time{}
+}
