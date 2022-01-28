@@ -1,6 +1,7 @@
 <h1 align="center">Website Screens</h1>
 
-![Website screen](https://user-images.githubusercontent.com/79747022/138323123-d815f0f0-e375-4224-bcbb-5f09747315ea.png)
+![14](https://user-images.githubusercontent.com/79747022/151584055-ac468495-68b2-48bf-858b-6080e5b27fc4.png)
+
 
 <div align="center">
 
@@ -54,4 +55,4 @@ Please note that Open Source Design has a [Contributor Code of Conduct](https://
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE) © Dezenix
 
-![thank you](https://user-images.githubusercontent.com/79747022/138323412-8b8e3097-5492-4518-bf39-1537ee739150.png)
+![t](https://user-images.githubusercontent.com/79747022/151584083-7ee314a1-3662-42c5-bf94-f3fca05ddf0d.png)
